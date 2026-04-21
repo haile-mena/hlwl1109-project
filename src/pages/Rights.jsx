@@ -134,9 +134,9 @@ export default function Rights() {
             If you have specific legal questions about your rights or need legal assistance, consider contacting:
           </p>
           <ul className="list-disc pl-6 text-gray-700 space-y-2">
-            <li>GWU Student Legal Services (free for students)</li>
+            <li>DC Resource Bridge: 202-933-HELP (4357)</li>
             <li>If/When/How Legal Helpline: 1-844-868-2812</li>
-            <li>National Immigration Law Center</li>
+            <li>National Immigration Law Center: (202) 216-0261</li>
           </ul>
         </div>
       </div>
