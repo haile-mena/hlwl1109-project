@@ -7,10 +7,10 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Student Health & Wellness Resource
+            Reproductive Health Rights & Resources
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A resource to help international students at GWU understand their healthcare rights and access support services.
+            A resource to help international students at GWU understand their reproductive health rights and access support services.
           </p>
         </div>
 
