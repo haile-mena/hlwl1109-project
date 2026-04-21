@@ -10,15 +10,15 @@ export default function FAQ() {
       questions: [
         {
           q: 'Will accessing abortion care affect my student visa?',
-          a: 'No. Accessing reproductive healthcare, including abortion, does not affect your visa status. Medical information is confidential and protected by HIPAA. Healthcare providers cannot and will not report your medical care to immigration authorities.'
+          a: 'No. Accessing reproductive healthcare, including abortion, does not affect your visa status. Medical information is confidential and protected by HIPAA. Healthcare providers generally cannot disclose your reproductive-health information to immigration authorities unless a specific law, court order, or other legal exception applies.'
         },
         {
           q: 'Is abortion legal in Washington, D.C.?',
-          a: 'Yes. Abortion is legal in Washington, D.C. at all stages of pregnancy. There are no mandatory waiting periods, and adults do not need parental consent.'
+          a: 'Yes. Abortion is legal in Washington, D.C. at all stages of pregnancy. There are no mandatory waiting periods, and no one needs parental consent or notification (even minors).'
         },
         {
           q: 'Do I need to tell my parents or family?',
-          a: 'No. As an adult, you have the right to make your own healthcare decisions without informing your parents or family. Your medical information is confidential.'
+          a: 'No. You have the right to make your own healthcare decisions without informing your parents or family, regardless of age. Your medical information is confidential.'
         },
         {
           q: 'Will my school find out?',
@@ -39,7 +39,7 @@ export default function FAQ() {
         },
         {
           q: 'What if I can\'t afford it?',
-          a: 'Financial assistance is available through abortion funds like the DC Abortion Fund and the National Abortion Federation. These organizations help cover the cost of abortion care. Don\'t let cost prevent you from getting care - reach out to these resources.'
+          a: 'Financial assistance is available through abortion funds like the DC Abortion Fund and the National Abortion Federation. These organizations help cover the cost of abortion care. Don\'t let cost prevent you from getting care, make sure to reach out to these resources.'
         },
         {
           q: 'Can I use my insurance without my parents finding out?',
@@ -56,7 +56,7 @@ export default function FAQ() {
         },
         {
           q: 'What\'s the difference between medication abortion and surgical abortion?',
-          a: 'Medication abortion (the abortion pill) uses pills to end a pregnancy and is available up to 11 weeks from the first day of your last period. Surgical abortion is an in-clinic procedure. Both are safe and effective. Your healthcare provider can help you decide which option is best for you.'
+          a: 'Medication abortion (the abortion pill) uses pills to end a pregnancy and is available up to 10-11 weeks from the first day of your last period. Surgical abortion is an in-clinic procedure. Both are safe and effective. Your healthcare provider can help you decide which option is best for you.'
         },
         {
           q: 'Is abortion safe?',
@@ -176,7 +176,7 @@ export default function FAQ() {
             <strong>GWU Student Health Center:</strong> (202) 994-5300
           </li>
           <li>
-            <strong>National Abortion Hotline:</strong> 1-800-230-7526
+            <strong>National Abortion Hotline:</strong> 1-800-772-9100
           </li>
           <li>
             <strong>All-Options Talkline:</strong> 1-888-493-0092

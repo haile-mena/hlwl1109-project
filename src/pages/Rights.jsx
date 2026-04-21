@@ -48,7 +48,7 @@ export default function Rights() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900">No Visa Impact</h3>
                 <p className="text-gray-700">
-                  Accessing reproductive healthcare, including abortion, does not affect your visa status or immigration standing. This information is confidential and not reported to immigration authorities.
+                  Accessing reproductive healthcare, including abortion, should not affect your visa status or immigration standing. This information is confidential and clinics generally keep it confidential, though you should verify the clinic's privacy policies.
                 </p>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Rights() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900">Insurance Coverage</h3>
                 <p className="text-gray-700">
-                  Many student health insurance plans cover abortion services. Check your GWU student health insurance policy or contact the provider for specific coverage details.
+                  Many insurance companies will cover the cost of an abortion, including <a href="https://gwdocs.com/obgyn-student-health" target="_blank" rel="noopener noreferrer">The George Washington University Student Health Insurance Plan (SHIP) through Aetna Student Health</a>. 
                 </p>
               </div>
             </div>
@@ -111,13 +111,14 @@ export default function Rights() {
             GWU Student Health Services
           </h2>
           <p className="text-gray-700 mb-4">
-            GWU Student Health Center provides confidential reproductive health services, including:
+            GWU Student Health Center provides many reproductive health services, including:
           </p>
           <ul className="list-disc pl-6 text-gray-700 space-y-2">
             <li>Pregnancy testing and counseling</li>
             <li>Contraception services</li>
+            <li>Emergency contraception (Plan B) - available in District House (B2)/West Hall (B)</li>
             <li>STI testing and treatment</li>
-            <li>Referrals to abortion providers</li>
+            <li>Referrals to pregnancy care/gynecology services</li>
             <li>Mental health support</li>
           </ul>
           <p className="text-gray-700 mt-4">

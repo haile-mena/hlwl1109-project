@@ -3,22 +3,22 @@ import { MapPin, Phone, Globe, DollarSign, Heart } from 'lucide-react'
 export default function Resources() {
   const clinics = [
     {
-      name: 'Planned Parenthood of Metropolitan Washington, D.C.',
+      name: 'Carol Whitehill Moses Center of Washington, DC',
       address: '1225 4th Street NE, Washington, DC 20002',
-      phone: '(202) 347-8500',
-      website: 'https://www.plannedparenthood.org/health-center/dc/washington/20002/metropolitan-washington-dc-health-center-3089-90860',
-      services: ['Abortion services', 'Birth control', 'STI testing', 'Pregnancy testing']
+      phone: '(202) 347-8512',
+      website: 'https://www.plannedparenthood.org/health-center/district-of-columbia/washington/20002/carol-whitehill-moses-center-4221-90230',
+      services: ['Abortion services', 'Birth control', 'STI testing', 'Pregnancy testing & planning']
     },
     {
-      name: 'Washington Surgi-Clinic',
-      address: '2112 F Street NW, Suite 301, Washington, DC 20037',
-      phone: '(202) 659-9403',
-      website: 'https://www.washingtonsurgiclinic.com',
-      services: ['Abortion services', 'Contraception counseling', 'Pregnancy options counseling']
+      name: 'DuPont Clinic',
+      address: '1120 19th Street NW, Washington, DC 20036',
+      phone: '(202) 844-2004',
+      website: 'https://dupontclinic.com/',
+      services: ['Abortion services', 'Contraception counseling', 'Private waiting rooms']
     },
     {
       name: 'GWU Student Health Center',
-      address: '2301 G Street NW, Washington, DC 20052',
+      address: '800 21st Street, NW Washington, DC 20052',
       phone: '(202) 994-5300',
       website: 'https://healthcenter.gwu.edu',
       services: ['Pregnancy testing', 'Contraception', 'STI testing', 'Referrals', 'Counseling']
@@ -30,19 +30,19 @@ export default function Resources() {
       name: 'National Abortion Federation Hotline',
       description: 'Provides financial assistance and referrals',
       contact: '1-800-772-9100',
-      website: 'https://prochoice.org/patients/naf-hotline/'
+      website: 'https://nationalabortionfederation.org/naf-hotline/'
     },
     {
       name: 'DC Abortion Fund',
       description: 'Helps DC residents pay for abortion care',
-      contact: 'dcabortionfund@gmail.com',
-      website: 'https://www.dcabortionfund.org'
+      contact: '202-452-7464',
+      website: 'https://dcabortionfund.org/'
     },
     {
-      name: 'National Network of Abortion Funds',
-      description: 'Connects you with local abortion funds',
-      contact: 'Find your local fund online',
-      website: 'https://abortionfunds.org'
+      name: "Women's Reproductive Rights Assistance Project (WRRAP)",
+      description: 'Provides financial assistance for abortion care',
+      contact: 'info@wrrap.org',
+      website: 'https://wrrap.org/'
     }
   ]
 
@@ -55,15 +55,15 @@ export default function Resources() {
     },
     {
       name: 'Exhale Pro-Voice',
-      description: 'After-abortion emotional support talkline',
-      contact: '1-866-439-4253',
+      description: 'After-abortion emotional support textline',
+      contact: '617-749-2948',
       hours: 'Available in multiple languages'
     },
     {
       name: 'GWU Counseling and Psychological Services',
       description: 'Free mental health support for GWU students',
       contact: '(202) 994-5300',
-      hours: 'Confidential counseling services'
+      hours: 'Confidential, non-judgmental counseling services'
     }
   ]
 

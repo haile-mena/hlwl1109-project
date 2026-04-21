@@ -60,7 +60,7 @@ export default function Home() {
             Support & Information
           </h2>
           <p className="text-gray-700 mb-4">
-            Navigating healthcare as an international student can be challenging, especially when dealing with unfamiliar systems and regulations. This resource provides accurate, confidential information to help you make informed decisions about your health and wellbeing.
+            Navigating healthcare as an international student can be challenging, especially when dealing with unfamiliar systems and regulations. This resource provides the information needed to help you make informed decisions about your health and wellbeing.
           </p>
           <p className="text-gray-700 mb-4">
             We understand that students come from diverse backgrounds and cultures. Our goal is to provide non-judgmental information about all available healthcare options, respecting your personal values and circumstances.
@@ -85,7 +85,7 @@ export default function Home() {
               className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
             >
               <Phone className="mr-2 h-5 w-5" />
-              GWU Student Health: (202) 994-5300
+              GWU Student Health (24/7): (202) 994-5300
             </a>
             <Link
               to="/resources"
