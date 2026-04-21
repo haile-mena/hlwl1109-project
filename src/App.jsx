@@ -7,7 +7,7 @@ import FAQ from './pages/FAQ'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/hlwl1109-project">
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-grow">
