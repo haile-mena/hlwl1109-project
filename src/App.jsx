@@ -26,6 +26,9 @@ function App() {
             <p className="text-xs text-gray-400 mt-2">
               This website provides educational information and should not replace professional medical or legal advice.
             </p>
+            <p className="text-xs text-gray-400 mt-2">
+              Sources can be found in our health campaign paper: <a href="#" className="text-blue-400 hover:text-blue-300 underline">[Link to Paper]</a>
+            </p>
           </div>
         </footer>
       </div>
