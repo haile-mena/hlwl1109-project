@@ -120,8 +120,7 @@ export default function Sources() {
       </h1>
       <p className="text-xl text-gray-600 mb-10">
         This website compiles information from trusted medical, legal, and advocacy organizations. All sources used in this site are listed below.
-      </p>
-      <p className="text-gray-700 mt-3 text-sm">
+        <br/>
         <strong>Note:</strong> This website provides educational information and should not replace professional medical or legal advice. Always consult with qualified healthcare providers and legal professionals for personalized guidance.
       </p>
 
