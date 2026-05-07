@@ -13,6 +13,7 @@ export default function Navbar() {
     { name: 'Know Your Rights', path: '/rights' },
     { name: 'Resources', path: '/resources' },
     { name: 'FAQ', path: '/faq' },
+    { name: 'Sources', path: '/sources' },
   ]
 
   const languages = [

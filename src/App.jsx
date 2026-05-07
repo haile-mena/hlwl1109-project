@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Rights from './pages/Rights'
 import Resources from './pages/Resources'
 import FAQ from './pages/FAQ'
+import Sources from './pages/Sources'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/rights" element={<Rights />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/sources" element={<Sources />} />
           </Routes>
         </main>
         <footer className="bg-gray-800 text-white py-6 mt-12">
@@ -27,7 +29,7 @@ function App() {
               This website provides educational information and should not replace professional medical or legal advice.
             </p>
             <p className="text-xs text-gray-400 mt-2">
-              Sources can be found in our health campaign paper: <a href="#" className="text-blue-400 hover:text-blue-300 underline">[Link to Paper]</a>
+              <a href="/hlwl1109-project/sources" className="text-blue-400 hover:text-blue-300 underline">View our sources and references</a>
             </p>
           </div>
         </footer>
