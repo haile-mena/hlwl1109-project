@@ -119,26 +119,11 @@ export default function Sources() {
         Sources & References
       </h1>
       <p className="text-xl text-gray-600 mb-10">
-        This website compiles information from trusted medical, legal, and advocacy organizations. All sources are regularly reviewed for accuracy and currency.
+        This website compiles information from trusted medical, legal, and advocacy organizations. All sources used in this site are listed below.
       </p>
-
-      <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-10">
-        <h2 className="text-xl font-semibold text-gray-900 mb-2">
-          About Our Sources
-        </h2>
-        <p className="text-gray-700 mb-3">
-          The information on this website is compiled from reputable medical organizations, government agencies, legal resources, and advocacy groups. We prioritize:
-        </p>
-        <ul className="list-disc pl-6 text-gray-700 space-y-1">
-          <li>Evidence-based medical information from professional healthcare organizations</li>
-          <li>Current legal information from government sources and legal advocacy groups</li>
-          <li>Verified resources from established reproductive health organizations</li>
-          <li>Local D.C. resources specific to the GWU community</li>
-        </ul>
-        <p className="text-gray-700 mt-3 text-sm">
-          <strong>Note:</strong> This website provides educational information and should not replace professional medical or legal advice. Always consult with qualified healthcare providers and legal professionals for personalized guidance.
-        </p>
-      </div>
+      <p className="text-gray-700 mt-3 text-sm">
+        <strong>Note:</strong> This website provides educational information and should not replace professional medical or legal advice. Always consult with qualified healthcare providers and legal professionals for personalized guidance.
+      </p>
 
       <div className="space-y-10">
         {sources.map((section, sectionIndex) => (
@@ -149,7 +134,7 @@ export default function Sources() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {section.items.map((source, sourceIndex) => (
-                <div 
+                <div
                   key={sourceIndex}
                   className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
                 >
@@ -176,21 +161,6 @@ export default function Sources() {
             </div>
           </section>
         ))}
-      </div>
-
-      <div className="mt-12 bg-gray-100 rounded-lg p-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">
-          Additional Research & References
-        </h2>
-        <p className="text-gray-700 mb-4">
-          For a comprehensive list of academic sources and research supporting the information on this website, please refer to our health campaign research paper.
-        </p>
-        <p className="text-gray-700 text-sm">
-          <strong>Last Updated:</strong> May 2026
-        </p>
-        <p className="text-gray-700 text-sm mt-2">
-          If you notice any outdated information or have suggestions for additional sources, please contact the GWU Student Health Center.
-        </p>
       </div>
     </div>
   )
